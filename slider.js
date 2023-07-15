@@ -1,7 +1,9 @@
-const left = document.querySelector('.left')
-const right = document.querySelector('.right')
-const slider = document.querySelector('.slider')
+const left = document.querySelector('.left');
+const right = document.querySelector('.right');
+const slider = document.querySelector('.slider');
+ 
+let slideNumber = 1;
 
-left.addEventListener('click',()=>{
-   slider.style.transform = 'translateX(-650px)';
+right.addEventListener('click',()=>{
+   slider.style.transform = `translateX(-650px)`;
 })
